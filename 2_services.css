@@ -1,0 +1,813 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* -----------------------------LOGO----------------------------------- */
+
+nav p {
+    position: absolute;
+    color: #9EFF00;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* -------------------------Navigation Bar----------------------------- */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 106px;
+    user-select: none;
+}
+
+nav ul li {
+    display: block;
+    padding: 70px 7px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 7px;
+}
+
+nav ul li a:hover {
+    background-color: #313131;
+    border-radius: 5px;
+    padding: 16px 7px;
+}
+
+/* --------------------------------------main----------------------------------------- */
+main {
+    background-color: #1E1E1E;
+}
+
+/* -------------------------------------table------------------------------------------ */
+table {
+    border: 1px solid #444444;
+    margin: 0px 16px 0px;
+    border-collapse: collapse;
+}
+
+/* --------------------------------------our services--------------------------------- */
+.our-services {
+    text-align: center;
+}
+
+.our-services p {
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    font-size: 20px;
+}
+
+.our-services p span {
+    font-size: 14px;
+    color: #838383;
+}
+
+/* ---------------------------------------------DESIGN---------------------------------------------- */
+.design {
+    padding: 40px 16px;
+    line-height: 22px;
+}
+
+.design p {
+    color: #E6E6E6;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.design span {
+    margin-top: 2px;
+    color: #838383;
+    display: block;
+}
+
+.our-design-services {
+    color: #E6E6E6;
+    border: none;
+    font-size: 16px;
+    display: inline;
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: #383838;
+}
+
+/* ---------------------------------UX-------------------------------------------- */
+.user-experience {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.points {
+    padding: 20px;
+    color: #E6E6E6;
+    width: 50%;
+    line-height: 24px;
+}
+
+.bi-code-slash {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-journal-code {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-hand-index {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-stars {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* --------------------------------------------UI------------------------------------- */
+
+.user-interface {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.bi-cursor-fill {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-palette-fill {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-marker-tip {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-file-earmark-easel {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* -------------------------------branding-------------------------------------------- */
+.branding {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.bi-circle-square {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-arrows-fullscreen {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-diagram-3-fill {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-journal-text {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ----------------------------------------------Engineering------------------------------------------- */
+
+.engineering {
+    padding: 40px 16px;
+    line-height: 22px;
+}
+
+.engineering p {
+    color: #E6E6E6;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.engineering span {
+    margin-top: 2px;
+    color: #838383;
+    display: block;
+}
+
+.our-engineering-services {
+    color: #E6E6E6;
+    border: none;
+    font-size: 16px;
+    display: inline;
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: #383838;
+}
+
+/* ------------------------------------web development------------------------------- */
+.web-development {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.bi-code-square {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-terminal {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-gear-wide-connected {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-basket {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ------------------------------mobile app development--------------------------------- */
+.mobile-app-development {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.bi-ui-radios-grid {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-phone-flip {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-hand-index-thumb {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-window-stack {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* --------------------------------------project management------------------------------- */
+
+.project-management {
+    padding: 40px 16px;
+    line-height: 22px;
+}
+
+.project-management p {
+    color: #E6E6E6;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.project-management span {
+    margin-top: 2px;
+    color: #838383;
+    display: block;
+}
+
+.our-project-management-services {
+    color: #E6E6E6;
+    border: none;
+    font-size: 16px;
+    display: inline;
+    padding: 12px 16px;
+    border-radius: 5px;
+    background-color: #383838;
+}
+
+/* ----------------------------project planning---------------------------------------- */
+.project-planning {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.bi-hdd {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-reception-4 {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-recycle {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-reception-4 {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ------------------------------------quality assurance---------------------------------- */
+.quality-assurance {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+    color: #838383;
+    font-weight: bold;
+}
+
+.bi-puzzle-fill {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-shield-shaded {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-graph-up-arrow {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.bi-bug-fill {
+    font-size: 32px;
+    color: #9EFF00;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* --------------------------------BRING IDEAS TO LIFE---------------------------------- */
+
+.resolution {
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.resolution td {
+    padding: 20px;
+}
+
+.logo {
+    color: #9EFF00;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.description {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sub-description {
+    color: #838383;
+    font: 12px;
+    padding: 16px;
+}
+
+/* -------------------------------footer-------------------------------- */
+
+.section5 {
+    width: 100%;
+    height: 665px;
+    background-color: #1E1E1E;
+}
+
+.footer-logo {
+    color: #9EFF00;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stay-connected {
+    color: #838383;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.social {
+    border: 1px solid #444444;
+    margin: 1px 16px 1px;
+    height: 125px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;
+    width: 20px;
+    height: 20px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+
+.x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;
+    width: 20px;
+    height: 20px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444444;
+    width: 20px;
+    height: 20px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+
+.fa-envelope {
+    color: #9eff00;
+    font-size: 24px;
+}
+
+.our-email {
+    margin: 50px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d4d4d4;
+    font-size: 18px;
+}
+
+.fa-phone {
+    color: #9eff00;
+    font-size: 24px;
+}
+
+.our-phone {
+    margin: 50px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d4d4d4;
+    font-size: 18px;
+}
+
+.fa-location-dot {
+    color: #9eff00;
+    font-size: 24px;
+}
+
+.our-location {
+    margin: 50px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d4d4d4;
+    font-size: 18px;
+}
+
+.line {
+    border: 1px solid #444444;
+    margin: 0px 16px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #838383;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.laptop {
+    display: none;
+}
+
+/* -------------------------------------TABLET---------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav p {
+        text-align: left;
+        margin-left: 20px;
+        width: fit-content;
+    }
+
+    nav ul {
+        height: 50px;
+        padding: 14px 0px;
+    }
+
+    nav ul li {
+        padding: 14px 7px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .our-services p {
+        padding: 50px 0px;
+    }
+}
+
+/* -------------------------------------LAPTOP------------------------------------------- */
+@media screen and (min-width:1024px) {
+    .mobile {
+        display: none;
+    }
+
+    .laptop {
+        display: block;
+    }
+
+    /* ---------------------------------navbar------------------------------------ */
+    nav p {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: fit-content;
+    }
+
+    nav ul {
+        height: 50px;
+        padding: 4px 0px;
+    }
+
+    nav ul li {
+        padding: 14px 7px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    /* -------------------------------------table------------------------------------------ */
+    table {
+        border: 1px solid #444444;
+        margin: 0px 50px 0px;
+        border-collapse: collapse;
+    }
+
+    .our-services p {
+        padding: 50px 0px;
+    }
+
+    .points {
+        padding: 20px;
+        color: #E6E6E6;
+        width: 25%;
+    }
+}
